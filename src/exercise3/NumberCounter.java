@@ -21,10 +21,11 @@ public class NumberCounter {
       number = input.nextInt();
     }
     avrg = sum / (positive + negative);
-    System.out.println("Positive: " + positive);
-    System.out.println("Negative: " + negative);
-    System.out.println("Sum " + sum);
+    System.out.println("Positive numbers: " + positive);
+    System.out.println("Negative numbers: " + negative);
+    System.out.println("Sum: " + sum);
     System.out.println("Average: " + avrg);
+  
 
   }
 }
