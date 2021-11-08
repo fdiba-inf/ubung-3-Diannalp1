@@ -8,8 +8,8 @@ public class NumberCounter {
     double number = input.nextDouble();
     int positive = 0;
     int negative = 0;
-    int sum = 0;
-    double avrg;
+    double sum = 0;
+    double avrg = 0.0;
 
     while(number != 0){
       if (number > 0) {
